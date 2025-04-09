@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="lg:w-1/2 relative">
-                <img src="assets/hero2.webp" alt="man" class="w-[600px] mx-auto z-10 relative">
+                <img src="{{ asset('assets/hero2.webp') }}" alt="man" class="w-[600px] mx-auto z-10 relative">
                 <div
                     class="absolute bottom-0 left-0 w-full h-48 bg-gradient-to-t from-green-600/70 via-green-400/20 to-transparent rounded-b-3xl blur-sm z-0">
                 </div>
@@ -75,7 +75,7 @@
                 </p>
             </div>
             <div class="text-center">
-                <img src="assets/hero-woman.webp" alt="woman" class="max-w-xs mx-auto">
+                <img src="{{ asset('assets/hero-woman.webp') }}" alt="woman" class="max-w-xs mx-auto">
             </div>
         </div>
     </section>
